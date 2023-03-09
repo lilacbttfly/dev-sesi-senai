@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX forms 2</title>
+    <style>
+        body {
+            background-color: #ff95b8;
+            color: rgb(204, 15, 78);
+        }
+        h1{
+            text-align: center;
+        }
+        legend{
+            font-size: x-large;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ficha de cadastro</h1>
+<form>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+            <table>
+                <tr border="0">
+                    <td>Nome do aluno</td>
+                    <td><input type="text" placeholder="digite o nome aqui..."></td>
+                    <tr>
+                        <td>Data de nascimento</td>
+                        <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td>Idade</td>
+                        <td><input type="text" ></td>
+                    </tr>
+                    <tr>
+                        <td>Nome do responsável</td>
+                        <td><input type="text" placeholder="digite o nome aqui..."></td>
+                    </tr>
+                    <tr>
+                        <td>Número de telefone</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" placeholder="digite o email aqui..."></td>
+                    </tr>
+                    <tr>
+                        <td>Senha</td>
+                        <td><input type="password" placeholder="digite a senha aqui..."></td>
+                    </tr>
+                    <tr>
+                        <td>Foto do aluno</td>
+                        <td><input type="file"></td>
+                    </tr>
+                </tr>
+            </table>
+    </fieldset>
+    <fieldset>
+    <legend>Informações de matrícula</legend>
+    <table border="0">
+        <tr style="color: #ff95b8; background-color: #dc1f5e;">
+            <td>Série</td>
+            <td>Turno</td>
+            <td>Atividades extracurriculares</td>
+        </tr>
+        <td>
+            <select>
+                <option>Escolha a série</option>
+                <option>1° ao 5° ano do fundamental I</option>
+                <option>6° ao 9° ano do fundamental II</option>
+                <option>1° ano do ensino médio</option>
+                <option>2° ano do ensino médio</option>
+                <option>3° ano do ensino médio</option>
+        </td>
+        <td>
+            <input type="radio" id="Manhã" name="período" value="50">
+             <label for="Manhã">Manhã</label><br>
+             <input type="radio" id="Tarde" name="período" value="100">
+             <label for="Tarde">Tarde</label><br>
+        </td>
+        <td>
+            <input type="checkbox">Robótica<br>
+            <input type="checkbox">Música<br>
+            <input type="checkbox">Esportes<br>
+            <input type="checkbox">Pintura<br>
+        </td>
+    </table>
+    </fieldset>
+    <fieldset>
+        <legend>Observação</legend>
+        <textarea row="100" cols="191"></textarea>
+    </fieldset>
+    <input type="reset" value="Limpar">
+    <input type="submit" value="Enviar">
+   </form>
+</body>

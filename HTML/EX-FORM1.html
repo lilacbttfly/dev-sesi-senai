@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX Forms</title>
+    <link rel="shortcut icon" href="IMG/favicon-16x16.png">
+    <style>
+        @font-face {
+            font-family: "LEMONMILK-Regular.ttf";
+            src: url(./LEMONMILK-Regular.ttf);
+        }
+        #text-element {
+            font-family: "LEMONMILK-Regular.ttf";
+        }
+        body {
+            background-color:#e380c5;
+            color:#ff009d;
+            font-family: "LEMONMILK-Regular.ttf";
+        }         
+    </style>
+</head>
+
+<body>
+  
+<table border="1" style="background-color: #ff009d; color: #e380c5;">
+    <tr>
+        <th colspan="2">
+            Trabalhando com forms
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Nome:
+        </td>
+        <td>
+                <form>
+                    <input type="text">
+                
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Sexo:
+        </td>
+        <td>
+                <!--criando input de "radio"-->
+                
+                    <input type="radio" id="masculino" name="sexo" value="50">
+                    <label for="masculino">masculino</label><br>
+                    <input type="radio" id="feminino" name="sexo" value="100">
+                    <label for="feminino">feminino</label><br> 
+                
+         </td>
+    </tr>
+    <tr>
+        <td>
+            Escolaridade
+        </td>
+        <td>
+            <!--criando um input de "select"-->
+        
+                <select>
+                  <option>Outro</option>
+                  <option>Ensino médio incompleto</option>
+                  <option>Ensino médio completo</option>
+                  <option>Ensino superior incompleto</option>
+                  <option>Ensino superior completo</option>
+                </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="reset" value="Limpar">
+        </td>
+        <td>
+            <input type="submit" value="Enviar">
+        </td>
+    </form>
+    </tr>
+</table>
+</body>

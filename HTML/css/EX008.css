@@ -1,0 +1,42 @@
+
+.interapreta {
+    border: 1px solid black;
+}
+.infvermelho{
+   border-bottom: 2px solid red;
+}
+.redverde {
+    border-radius: 2px;
+    border: 1px solid green;
+}
+.left {
+    border-left: 4px solid blue;
+    background-color: lightblue;
+}
+.ponti {
+    border-top-style:dotted;
+}
+.xtudo{
+    border-left: green;
+    border-left-style: double;
+    border-top: 1px solid yellow;
+    border-right: blue;
+    border-right-style: dotted;
+    border-bottom: red;
+    border-bottom-style: dashed;
+}
+.hole {
+    border-radius: 30px;
+}
+.courtney {
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.celebrityskin {
+  padding: 16px;
+  border-radius: 100%;
+  background: linear-gradient(45deg, #ff00b7 0%, #b700ff 100%);
+}
+.retang {
+    border-radius:100%
+}

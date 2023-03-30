@@ -1,0 +1,20 @@
+.logo{
+    height: 50px;
+    background-image: url(/HTML/IMG/logo.svg);
+    background-repeat: no-repeat;
+}
+h1{
+    background-color: lightblue;
+}
+h2 {
+    border-bottom: 2px solid;
+}
+.img1 {
+    height: 400px;
+    width: 700px;
+}
+
+.familia {
+    height:200px;
+    width:300px;
+}

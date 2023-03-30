@@ -1,0 +1,16 @@
+.padrão {
+    font-family: 'Courier New', Courier, monospace;
+}
+.google {
+    font-family: 'Rampart One', cursive;
+}
+@font-face {
+    font-family: "Fancy Valentine.ttf";
+    src: url(/HTML/Fancy\ Valentine.ttf);
+}
+.arquivo {
+    font-family: "Fancy Valentine.ttf";
+}
+.sombreado{
+    color:white;
+    text-shadow: 0 0 25px blue, 0 0 5px darkblue}

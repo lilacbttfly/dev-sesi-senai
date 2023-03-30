@@ -1,0 +1,220 @@
+body {
+    background-color: #000000;
+    padding: 50px;
+}
+.botao1 {
+    background-color: #00008b;
+    color: #ffffff;
+    border: 0.5px solid #ffffff;
+    padding:20px 40px;
+    text-decoration: none;
+}
+.botao1:hover {
+    background-color: #0000ff;
+}
+.botao2 {
+    background-color: #006400;
+    color: #ffffff;
+    border: 0.5px solid #00ff00;
+    border-radius: 5px;
+    padding:20px 40px;
+    text-decoration: none;
+    margin:20px
+}
+.botao2:hover {
+    background-color: #00ff00;
+}
+.botao3 {
+    background-color: #8b0000;
+    color: #ffffff;
+    border: 0.5px solid #ffffff;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:20px 40px;
+    text-decoration: none;
+    margin:20px
+}
+.botao3:hover {
+    background-color: #ff0000;
+}
+.botao4 {
+    background-color: #ffd700;
+    color: #ffffff;
+    border: 0.5px solid #ffffff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding:20px 40px;
+    text-decoration: none;
+    margin:20px
+}
+.botao4:hover {
+    background-color: #ffff00;
+}
+.botao5 {
+    background: linear-gradient(#ff0080 0%, #ff00ff 50%, #0000ff 100%);
+    color: #ffffff;
+    border: 0.5px solid #ff00ff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding:20px 40px;
+    text-decoration: none;
+    margin:20px
+}
+.botao5:hover {
+    background: linear-gradient(#0000ff 0%, #ff00ff 50%, #ff0080 100%)
+}
+.botao6 {
+    background: linear-gradient(90deg, #ff0080 0%, #ff00ff 50%, blue 100%);
+    color: #ffffff;
+    border-radius: 10px;
+    padding:20px 40px;
+    text-decoration: none;
+    margin:20px
+}
+.botao6:hover {
+    background: linear-gradient(90deg, #0000ff 0%, #ff00ff 50%, #ff0080 100%)
+}
+.botao7 {
+    background: linear-gradient(90deg, #90ee90 0%, #00ff00 100%);
+    color: #ffffff;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding:20px 40px;
+    text-decoration: none;
+    margin:20px
+}
+.botao7:hover {
+    background: linear-gradient(90deg, #00ff00 0%, #90ee90 100%)
+}
+.botao8 {
+    color: #800080;
+    border-radius: 20px;
+    padding:20px 40px;
+    text-decoration: none;
+    
+    border: 2px solid #800080
+}
+.botao8:hover {
+    background-color: #ce0cce59;
+}
+.botao9 {
+    color: #ff0099;
+    border-radius: 20px;
+    padding:20px 40px;
+    text-decoration: none;
+    margin:20px;
+    border: 2px solid #ff0099
+}
+.botao9:hover {
+    background-color: #ff51b97d;
+}
+.botao10 {
+    color: #ff8000;
+    border-radius: 20px;
+    padding:20px 40px;
+    text-decoration: none;
+    margin:20px;
+    border: 2px solid #ff8000
+}
+.botao10:hover {
+    background-color: #ff942976;
+}
+.botao11 {
+    color: #ffff00;
+    border-radius: 20px;
+    padding:20px 40px;
+    text-decoration: none;
+    margin:20px;
+    border: 2px solid #ffff00;
+    box-shadow: -5px 5px 5px #ffff00
+}
+
+.botao11:hover {
+    background-color:#ffd9008a;
+}
+.botao12 {
+    color: #90ee90;
+    border-radius: 20px;
+    padding:20px 40px;
+    text-decoration: none;
+    margin:20px;
+    border: 2px solid #90ee90;
+    box-shadow: -5px 5px 5px #90ee90
+}
+
+.botao12:hover {
+    background-color:#95f4959f;
+}
+div {
+    padding: 50px
+}
+.botao13 {
+    font-family: fantasy;
+    color: #ffffff;
+    background-color: #00ff00;
+    border-radius: 20px;
+    padding:20px 40px;
+    text-decoration: none;
+    margin:20px;
+    box-shadow: 0px 0px 10px #ffffff
+}
+
+.botao13:hover {
+    background-color:#00ff008a;
+}
+div {
+    padding: 50px
+}
+.botao14 {
+    font-family: fantasy;
+    color: #ffffff;
+    background-color: #ff00ee;
+    border-radius: 20px;
+    padding:20px 40px;
+    text-decoration: none;
+    margin:20px;
+    box-shadow: 0px 0px 10px #ffffff
+}
+
+.botao14:hover {
+    background-color:#ff00ee5d;
+}
+div {
+    padding: 50px
+}
+.botao15 {
+    font-family: fantasy;
+    color: #ffffff;
+    background-color: #0026ff;
+    border-radius: 20px;
+    padding:20px 40px;
+    text-decoration: none;
+    margin:20px;
+    box-shadow: 0px 0px 10px #ffffff
+}
+
+.botao15:hover {
+    background-color:#0026ff86;
+}
+div {
+    padding: 50px
+}
+.botao16 {
+    font-family: fantasy;
+    color: #ffffff;
+    background-color: #fbff00;
+    border-radius: 20px;
+    padding:20px 40px;
+    text-decoration: none;
+    margin:20px;
+    box-shadow: 0px 0px 10px #ffffff
+}
+
+.botao16:hover {
+    background-color:#fbff00aa;
+}
+div {
+    padding: 50px
+}

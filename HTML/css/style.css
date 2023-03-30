@@ -1,0 +1,84 @@
+body {
+    /*colocando cor de fundo no body*/
+    background-color: hotpink;
+}
+h1{
+    /*centralizando texto*/
+    text-align: center;
+} 
+h2{
+    font-size: 20px;
+    background-color: aliceblue;
+}
+h3 {
+    font-size: 18px;
+    text-align: right;
+    color: aliceblue;
+    background-color: rgb(255, 0, 128);
+}
+p {
+    color: rgb(0, 81, 255);
+}
+.p1 {
+    color: aliceblue;
+}
+.p2 {
+    color:mediumvioletred;
+}
+.p3 {
+    color: maroon;
+}
+img{
+    height: 200px;
+    width: 400px;
+}
+ .fonte{
+    font-family: 'Smokum', cursive;
+
+ }
+ .opacidade {
+    background-color: darkblue;
+    opacity: 0.3;
+    color: white;
+ }
+ .backgroundimage {
+    height: 1000px;
+    background-image: url(https://source.unsplash.com/1920x2400?hdr,senset,ocean);
+    background-size: cover 
+ }
+ .div1{
+    background-color:white;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+ }
+ .textodiv {
+    color: black;
+ }
+ .div2 {
+    background-color: lime;
+    color: rgb(255, 25, 140);
+    border: 2px solid rgb(203, 0, 102);
+    border-radius: 4px;
+ }
+ .div3 {
+    background-color: blueviolet;
+    margin: 10px;
+ }
+ .centralizada {
+    background-color: rgb(255, 25, 140);
+    width:150px;
+    margin: 0 auto;
+    text-align: center;
+ }
+ .botao {
+    background-color: rgb(255, 25, 140);
+    padding:10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    text-shadow: 5px whitesmoke;
+ }
+ .botao:hover {
+    background-color: rgb(203, 0, 102);
+ }

@@ -1,0 +1,50 @@
+.flex1{
+    display: flex;
+    background-color: seagreen;
+}
+.flex2 {
+    background-color: seagreen;
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+    flex-direction: column;
+}
+.wrop {
+    background-color: #ff8b9e;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+    width: 200px;
+    margin: 10px
+}
+.centralizE{
+    background-color: #ff8b9e;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.SpaCeArOuNd{
+    background-color: #ff8b9e;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.bitqueen{
+    background-color: #ff8b9e;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.flexend{
+    background-color: #ff8b9e;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}

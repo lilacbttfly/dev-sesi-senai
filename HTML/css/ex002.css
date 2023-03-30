@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(248, 186, 248);
+}
+h1{
+    color: darkmagenta;
+    transition: 6s;
+}
+h1:hover{
+    color: darkmagenta;
+    font-size: xx-large;
+    transition: 6s;
+}
+td {
+    width: 100px;
+    height: 100px;
+}
+.azul {
+    background-color: darkcyan;
+}
+.amarelo {
+    background-color: burlywood;
+}
+.verde {
+    background-color: darkolivegreen;
+}
+.vermelho {
+    background-color: maroon;
+}
+.roxo {
+    background-color: rebeccapurple;
+}
+#preto {
+    background-color: black;
+}
+
+.azul:hover {
+    background-color: rgb(1, 234, 234);
+    transition: 1s;
+}
+.amarelo:hover {
+    background-color: rgb(255, 246, 162);
+    transition: 1s;
+}
+.verde:hover {
+    background-color: rgb(133, 185, 43);
+    transition: 1s;
+}
+.vermelho:hover {
+    background-color: rgb(255, 0, 0);
+    transition: 1s;
+}
+.roxo:hover {
+    background-color: rgb(149, 43, 255);
+    transition: 1s;
+}
+#preto:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+p {
+    display: none;
+    background-color:hotpink;
+    padding: 20px;
+  }
+  
+  div:hover p {
+    display: block;
+  }

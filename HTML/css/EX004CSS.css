@@ -1,0 +1,40 @@
+body {
+    background-color: lightgreen;
+}
+h1 {
+    color: white;
+    background-color: forestgreen;
+    font-family: 'Rampart One', cursive;
+    text-align: center;
+}
+h2 {
+    color: white;
+    text-shadow: 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+}
+.tvermelho {
+    font-family: 'Rampart One', cursive;
+    color:red;
+}
+.vermelho {
+    color: red;
+    text-align: justify;
+}
+.tamarelo {
+    font-family: 'Rampart One', cursive;
+    color:yellow;
+    text-align: center;
+}
+.amarelo {
+    color:yellow;
+    text-align: center;
+}
+.tazul {
+    font-family: 'Rampart One', cursive;
+    color:blue;
+    text-align: right;
+}
+.azul {
+    color:blue;
+    text-align: right;
+}

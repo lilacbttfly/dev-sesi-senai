@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício 001</title>
+</head>
+<style>
+    body {
+        background-color: #ff95b8;
+        color: white;
+        text-align: center;
+        font-family: "malatCKU.ttf";
+        text-shadow: 0px 4px 16px #0000003f;
+        font-size: xx-large;
+    }
+    button {
+        border: 2px solid white;
+        color: white;
+        background-color: #ff95b800;
+        padding: 10px 20px;
+        border-radius: 33px;
+        margin-right: 10px;
+        font-family: "coolvetica.otf";
+    }
+    @font-face {
+    font-family: "malatCKU.ttf";
+    src: url(/HTML/starcoffee/malatCKU.ttf);
+}
+    @font-face {
+    font-family: "coolvetica.otf";
+    src: url(/Stargeek/coolvetica.otf);
+    }
+</style>
+<body>
+    <h2>Exercício 001</h2>
+    <button onclick="Botao1()">Botão 1</button>
+    <button onclick="Botao2()">Botão 2</button>
+    <button onclick="Botao3()">Botão 3</button>
+    <button onclick="Botaonome()">Botão nome</button>
+</body>
+<script>
+    function Botao1(){
+        alert("Botão 1")
+        document.body.style.backgroundColor = "#A8E6CE"
+    }
+    function Botao2(){
+        alert("Botão 2")
+        document.body.style.backgroundColor = "#DCEDC2"
+    }
+    function Botao3(){
+        alert("Botão 3")
+        document.body.style.backgroundColor = "#FFD3B5"
+    }
+    function Botaonome(){
+        prompt("Qual é o seu nome?")
+    }
+</script>
+</html>

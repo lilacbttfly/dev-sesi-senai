@@ -1,0 +1,36 @@
+body {
+    background-color: #BAF1A1;
+    font-family: "coolvetica.otf";
+    text-align: center;
+}
+.seusresultados {
+    font-size: x-large;
+    color: #F688BB;
+}
+h1{
+    color: #9DE3D0;
+    background-color: #E8F9E9;
+    border-radius: 55px;
+    text-align: center;
+    box-shadow: 0px 4px 16px #00000019;
+}
+div{
+    background-color: #E8F9E9;
+    color: #F688BB;
+    border-radius: 55px;
+    box-shadow: 0px 4px 16px #00000019;
+}
+button {
+    background-color: #9de3d035;
+    border: 2px solid #9de3d0;
+    border-radius: 55px;
+    font-family: "coolvetica.otf";
+    color:#F688BB
+}
+button:hover {
+    background-color: #9de3d072;
+}
+@font-face {
+    font-family: "coolvetica.otf";
+    src: url(/Stargeek/coolvetica.otf);
+}

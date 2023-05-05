@@ -1,0 +1,58 @@
+body{
+    background-color: #190748;
+    text-align: center;
+}
+h1{
+    font-family: "Led Panel Station On.ttf";
+    color:#7443ef;
+    font-size:500%;
+    text-shadow: 0px 0px 10px #4800ff;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p {
+    font-size: 200%;
+}
+.placaar1{
+    font-family: "Led Panel Station On.ttf";
+    color:#d9fb95;
+    font-size:300%;
+    text-shadow: 0px 0px 10px #c6fe55;
+}
+.placaar{
+    font-family: "Led Panel Station On.ttf";
+    color:#f9b9e4;
+    font-size:300%;
+    text-shadow: 0px 0px 10px #ff02ab;
+}
+main > .vs{
+    font-family: "Led Panel Station On.ttf";
+    color:#7443ef;
+    text-shadow: 0px 0px 10px #4800ff;
+    font-size:400%;
+}
+button{
+    color:#7443ef;
+    text-shadow: 0px 0px 10px #4800ff;
+    background-color: #4800ff00;
+    border: 5px dotted #4800ff;
+    font-family: "Led Panel Station On.ttf";
+    font-size: 100%;
+    border-radius: 55px;
+    padding: 10px
+}
+@font-face {
+    font-family: "coolvetica.otf";
+    src: url(/Stargeek/coolvetica.otf);
+}
+@font-face {
+    font-family: "Led Panel Station On.ttf";
+    src: url(./Led\ Panel\ Station\ On.ttf);
+}
+@font-face {
+    font-family: "Led Panel Station Off.ttf";
+    src: url(./Led\ Panel\ Station\ Off.ttf);
+}
